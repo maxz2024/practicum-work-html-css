@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
+/*  
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sono', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+@font-face {
+    font-family: 'Boozy';
+    src: url(Boozy.ttf);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.block {
+    width: 840px;
+    height: 350px;
+}
+.header {
+    margin: 20px;    
+}
+
+.bacround-header {
+    background-color: #33ff00ec;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.bacround-header h1 {
+    margin: 0;
+    color: #b8b8b8d8;
+    font-family: 'Sono', sans-serif;
+    font-size: 30px;
+}
+
+.text-block {
+    margin: 20px;
+    
+}
+
+.text-block h1 {
+    font-family: 'Boozy';
+    font-size: 40px;
+    color: #f70404;
+}
+
+.text-block p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+.button a {
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+}

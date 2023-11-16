@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
+/*  
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sono', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.page {
+    box-sizing: border-box;
+    background-color: #dddddd;
+    width: 640px;
+    height: 360px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.text-block {
+    padding: 70px;
+}
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    width: 210px; /* 211 × 48 */
+    height: 50px;
+}
+
+.description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.description .profession-2 {
+    color: #779bff;
+}
+.text {
+    font-family: 'Sono', sans-serif;
+    font-size: 11px;
+}
+
+.image {
+    box-sizing: border-box;
+    padding-left: 70px;
+    padding-right: 5px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    
+}
+
+.image img {
+    width: 150px; /* 150 × 230 */
+    height: 230px;
+}
+
+.button button{
+    border: none;
+    border-radius: 4px;
+    background-color: #3f70f4;
+    color: #ffff;
+    width: 60px; /* 61 × 22 */
+    height: 25px;
+    font-size: 11px;
+}
+
+.buttons {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 600px;
+}
+
+.buttons a {
+    display: inline-block;
+    color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+}
+.buttons a.next {
+    background-color: #14b11c;
+    
+}
+.buttons a.back {
+    background-color: #003cff;
+}

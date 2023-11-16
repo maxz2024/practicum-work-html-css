@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
+/*  
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sono', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.page {
+    background-color: #6fcf97;
+    width: 330px; /* 328 × 197 */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 300px;
+    height: 110px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.profile {
+    padding: 24px;
+    display: flex;
+    width: 255px;
+    height: 65px; /* 255 × 65 */
+}
+
+.avatar {
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    /* background-color: #6fcf97; */
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+.block-name {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    width: 84px;
+    height: 44px;
+}
+
+.author {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 70px;
+    height: 24px;
+    font-size: 13px;
+}
+
+.username {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 80px;
+    height: 24px;
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+.buttons {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 600px;
+}
+
+.buttons a {
+    display: inline-block;
+    color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+}
+.buttons a.next {
+    background-color: #14b11c;
+    
+}
+.buttons a.back {
+    background-color: #003cff;
+}
